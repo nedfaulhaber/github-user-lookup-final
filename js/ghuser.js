@@ -9,6 +9,4 @@ exports.Repo.prototype.getRepos = function(username) {
   }).fail(function(error){
     console.log(error.responseJSON.message);
   });
-};
-
 }
