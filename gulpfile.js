@@ -25,7 +25,7 @@ var buildProduction = utilities.env.production;
 
 gulp.task('jsBrowserify', function() {
   return browserify({
-      entries: ['./js/map-interface.js']
+      entries: ['./js/ghuser-interface.js']
     })
     .bundle()
     .pipe(source('app.js'))
