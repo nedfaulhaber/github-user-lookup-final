@@ -6,10 +6,6 @@ var apiKey = require("./../.env").apiKey;
 exports.Repo.prototype.getRepos = function(username) {
   $.get("https://api.github.com/users/" + username + "/repos?access_token=" + apiKey).then(function(response) {
 
-    // response.forEach(function(repo) {
-    //     $("ol#showRepos").append("<li>" + "Repo Name: " + repo.name + "</li>");
-    //     $("ol#showRepos").append("<li>" + "Repo Description: " + repo.name + "</li>");
-    // })
     response.forEach(function(repo) {
       $("ol#showRepos").append("<li>" + "Repo Name: " + repo.name + ",  Description: " + repo.description + "</li>");
     });
