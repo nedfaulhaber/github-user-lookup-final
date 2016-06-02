@@ -11,5 +11,6 @@ $(document).ready(function() {
     $("#ghUsername").val("");
 
     currentRepoObject.getRepos(username);
+    console.log('test');
   });
 });
