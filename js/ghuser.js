@@ -13,4 +13,7 @@ exports.Repo.prototype.getRepos = function(username) {
   }).fail(function(error){
       $("ol#showRepos").text(error.responseJSON.message);
     });
+
+    $("ol#showRepos").empty();
+
 }
