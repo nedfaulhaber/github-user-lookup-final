@@ -23,7 +23,7 @@ _This web page allows a user to enter a GitHub username and retrieve the names a
 
 ## Known Bugs
 
-_There is one bug that needs to be fixed, but is easy to get around when using the web page.  When finished generating a list, make sure to reload the page before searching another username.  If you neglect to do this, the next user's list of repositories will simply append to the one before it._
+_None._
 
 ## Support and contact details
 
